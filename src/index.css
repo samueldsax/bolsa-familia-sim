@@ -1,4 +1,19 @@
+/*
+  Salve este código em: my-bolsa-familia-sim/src/index.css
+  As diretivas do Tailwind devem estar no topo do arquivo.
+*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+/*
+  Importa a nova fonte 'Poppins' do Google Fonts para um visual mais moderno.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Adiciona um estilo global para o corpo da página */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #d1d5db; /* Cor de texto padrão para o tema escuro */
+  background-color: #000000; /* Cor de fundo principal */
+}
