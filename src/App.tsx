@@ -55,7 +55,7 @@ const App: React.FC = () => {
                                focus:outline-none focus:ring-4 focus:ring-purple-300 focus:ring-opacity-75
                                transition duration-300 ease-in-out transform hover:scale-105"
                     >
-                      Veja qual o valor que você pode receber
+                      Ir para o Simulador de Futuros Pagamentos
                     </button>
                   </div>
                 </>
@@ -69,6 +69,7 @@ const App: React.FC = () => {
         })()}
       </main>
 
+      {/* Renderiza o rodapé */}
       <Footer />
     </div>
   );
