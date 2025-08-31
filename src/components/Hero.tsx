@@ -45,7 +45,6 @@ const Hero: React.FC = () => {
           <p className="text-gray-500 text-xs mt-2">Cadastro deve ser feito presencialmente no CRAS</p>
         </div>
 
-        {/* Ponto 3: Educação */}
         <div className="bg-[#1e1325] p-6 rounded-2xl border border-purple-800 flex flex-col items-center text-center">
           <div className="text-blue-400 text-3xl mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
