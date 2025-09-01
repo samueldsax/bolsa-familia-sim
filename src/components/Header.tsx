@@ -36,10 +36,7 @@ const Header: React.FC<{ setCurrentPage: (page: 'home' | 'simulador' | 'calendar
   return (
     <header className="w-full bg-[#120a16] py-4 px-4 sm:px-8 md:px-12 flex flex-col md:flex-row justify-between items-center shadow-lg shadow-purple-950/20">
       <div className="flex items-center space-x-4 mb-4 md:mb-0">
-        <div className="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center font-bold text-xl text-white">
-          BF
-        </div>
-        <h1 className="text-2xl md:text-3xl font-extrabold text-white">Bolsa Família Fácil</h1>
+        <h1 className="text-2xl md:text-3xl font-extrabold text-white">Calculadora Bolsa Família 2025</h1>
       </div>
       <nav className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 items-center">
         <button
